@@ -1,7 +1,8 @@
+import MainLanding from "../../sub/landing"
 import indexStyle from "./style"
 
 const IndexPage = () => {
-    return <div style={indexStyle.container}>Home Page</div>
+    return <MainLanding />
 }
 
 export default IndexPage
